@@ -1,0 +1,10 @@
+{
+  "name": "travel-with-sarah",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static editorial travel-planning website for Sarah Harry",
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "check": "node --check dist/assets/site.js && python3 scripts/check.py"
+  }
+}
